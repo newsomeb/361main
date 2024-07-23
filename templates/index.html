@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pokemon Arbitrage</title>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Pokemon Card Search. Get a sense of the market for any card</h1>
+        <h2> Prices are an approximation. See eBay.com for exact prices. To start a new search type into the search bar</h2>
+        <form id="search-form">
+            <input id="searchbar" type="text" name="search" placeholder="Enter Pokemon Card Name">
+            <button type="submit">Search</button>
+        </form>
+        <div id="results"></div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+
+</html>
